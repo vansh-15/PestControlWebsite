@@ -65,7 +65,7 @@ app.innerHTML = `
     <div class="container nav-container">
 
       <a href="#home" class="logo-link">
-        <img src="/logo.jpeg" alt="Pest Control Services Logo" class="logo">
+        <img src="${import.meta.env.BASE_URL}logo.jpeg" alt="Pest Control Services Logo" class="logo">
       </a>
 
       <nav class="desktop-nav">
@@ -89,6 +89,7 @@ app.innerHTML = `
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#gallery">Our Work</a>
       <a href="#contact">Contact</a>
 
       <a href="tel:+919369214131" class="mobile-call">
@@ -171,7 +172,7 @@ app.innerHTML = `
             <div class="circle-decoration circle-two"></div>
 
             <img
-              src="/logo.jpeg"
+              src="${import.meta.env.BASE_URL}logo.jpeg"
               alt="Pest Control Services"
               class="hero-logo"
             />
@@ -218,7 +219,7 @@ app.innerHTML = `
             <div class="about-image-box">
 
               <img
-                src="/logo.jpeg"
+                src="${import.meta.env.BASE_URL}logo.jpeg"
                 alt="Pest Control Services"
               />
 
@@ -351,6 +352,251 @@ app.innerHTML = `
     </section>
 
 
+      <!-- PEST PROBLEMS -->
+    <section class="pest-gallery section" id="gallery">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="section-label">
+            PEST PROBLEMS
+          </span>
+
+          <h2>
+            See What We Help Protect You From
+          </h2>
+
+          <p>
+            Unwanted pests can hide in walls, cupboards, kitchens,
+            bedrooms and other areas of your property. Our professional
+            pest control services help tackle these common problems.
+          </p>
+
+        </div>
+
+
+        <!-- IMAGE GALLERY -->
+
+        <div class="pest-image-grid">
+
+          <div class="pest-image-card">
+            <img
+              src="${import.meta.env.BASE_URL}images/pest-1.jpg"
+              alt="Pest found inside a property"
+              loading="lazy"
+            />
+
+            <div class="image-overlay">
+              <span>Pest Inspection</span>
+            </div>
+          </div>
+
+
+          <div class="pest-image-card">
+            <img
+              src="${import.meta.env.BASE_URL}images/pest-2.jpg"
+              alt="Insects found on a wall"
+              loading="lazy"
+            />
+
+            <div class="image-overlay">
+              <span>Wall Pest Treatment</span>
+            </div>
+          </div>
+
+
+          <div class="pest-image-card">
+            <img
+              src="${import.meta.env.BASE_URL}images/pest-3.jpg"
+              alt="Pests found inside a cupboard"
+              loading="lazy"
+            />
+
+            <div class="image-overlay">
+              <span>Cupboard Pest Control</span>
+            </div>
+          </div>
+
+
+          <div class="pest-image-card">
+            <img
+              src="${import.meta.env.BASE_URL}images/pest-4.jpg"
+              alt="Household pest problem"
+              loading="lazy"
+            />
+
+            <div class="image-overlay">
+              <span>Household Pest Control</span>
+            </div>
+          </div>
+
+
+          <div class="pest-image-card">
+            <img
+              src="${import.meta.env.BASE_URL}images/pest-5.jpg"
+              alt="Insects inside a property"
+              loading="lazy"
+            />
+
+            <div class="image-overlay">
+              <span>Pest Management</span>
+            </div>
+          </div>
+
+
+          <div class="pest-image-card">
+            <img
+              src="${import.meta.env.BASE_URL}images/pest-6.jpg"
+              alt="Pest infestation"
+              loading="lazy"
+            />
+
+            <div class="image-overlay">
+              <span>Professional Treatment</span>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- VIDEOS -->
+
+        <div class="demonstration-heading">
+
+          <span class="section-label">
+            OUR WORK IN ACTION
+          </span>
+
+          <h3>
+            Professional Pest Control Demonstrations
+          </h3>
+
+          <p>
+            Watch our pest control work in action and see how
+            we tackle pest problems in different areas.
+          </p>
+
+        </div>
+
+
+        <div class="video-grid">
+
+          <div class="video-card">
+
+            <video
+              controls
+              preload="metadata"
+              playsinline
+            >
+              <source
+                src="${import.meta.env.BASE_URL}videos/demo-1.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support video playback.
+            </video>
+
+            <div class="video-info">
+              <span>01</span>
+              <h4>Pest Control Demonstration</h4>
+            </div>
+
+          </div>
+
+
+          <div class="video-card">
+
+            <video
+              controls
+              preload="metadata"
+              playsinline
+            >
+              <source
+                src="${import.meta.env.BASE_URL}videos/demo-2.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support video playback.
+            </video>
+
+            <div class="video-info">
+              <span>02</span>
+              <h4>Professional Pest Treatment</h4>
+            </div>
+
+          </div>
+
+
+          <div class="video-card">
+
+            <video
+              controls
+              preload="metadata"
+              playsinline
+            >
+              <source
+                src="${import.meta.env.BASE_URL}videos/demo-3.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support video playback.
+            </video>
+
+            <div class="video-info">
+              <span>03</span>
+              <h4>On-Site Pest Control</h4>
+            </div>
+
+          </div>
+
+
+          <div class="video-card">
+
+            <video
+              controls
+              preload="metadata"
+              playsinline
+            >
+              <source
+                src="${import.meta.env.BASE_URL}videos/demo-4.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support video playback.
+            </video>
+
+            <div class="video-info">
+              <span>04</span>
+              <h4>Property Pest Treatment</h4>
+            </div>
+
+          </div>
+
+
+          <div class="video-card">
+
+            <video
+              controls
+              preload="metadata"
+              playsinline
+            >
+              <source
+                src="${import.meta.env.BASE_URL}videos/demo-5.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support video playback.
+            </video>
+
+            <div class="video-info">
+              <span>05</span>
+              <h4>Pest Management in Action</h4>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
     <!-- CTA -->
     <section class="cta">
 
@@ -461,7 +707,7 @@ app.innerHTML = `
       <div class="footer-brand">
 
         <img
-          src="/logo.jpeg"
+          src="${import.meta.env.BASE_URL}logo.jpeg"
           alt="Pest Control Services"
         />
 
@@ -477,6 +723,7 @@ app.innerHTML = `
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
+        <a href="#gallery">Our Work</a>
         <a href="#contact">Contact</a>
 
       </div>
