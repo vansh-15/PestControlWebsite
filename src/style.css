@@ -1682,3 +1682,404 @@ img {
   }
 
 }
+
+
+/* =========================
+   WHATSAPP CONTACT
+========================= */
+
+.whatsapp-contact .contact-icon {
+  background: #25d366;
+  color: #ffffff;
+}
+
+.whatsapp-contact .contact-icon svg {
+  width: 27px;
+  height: 27px;
+  display: block;
+}
+
+.floating-whatsapp svg {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
+.whatsapp-contact:hover {
+  border-color: #25d366;
+}
+
+.floating-actions {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.floating-actions a {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 23px;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  transition: 0.25s ease;
+}
+
+.floating-whatsapp {
+  background: #25d366;
+}
+
+.floating-whatsapp:hover {
+  background: #128c7e;
+  transform: scale(1.08);
+}
+
+.floating-actions .floating-call {
+  position: static;
+}
+
+/* =========================
+   IMPROVED MOBILE
+========================= */
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: calc(100% - 28px);
+  }
+
+  .nav-container {
+    height: 68px;
+  }
+
+  .logo {
+    width: 82px;
+    height: 54px;
+  }
+
+  .menu-button {
+    font-size: 26px;
+    padding: 8px;
+  }
+
+  .mobile-menu {
+    padding: 16px 14px 20px;
+  }
+
+  .mobile-menu a {
+    display: block;
+    padding: 11px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+  }
+
+  .mobile-menu a:hover {
+    background: var(--light-green);
+  }
+
+  .mobile-call {
+    margin-top: 2px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 68px;
+  }
+
+  .hero-container {
+    min-height: auto;
+    gap: 8px;
+  }
+
+  .hero-content {
+    padding: 35px 0 10px;
+  }
+
+  .hero-badge {
+    max-width: 100%;
+    font-size: 9px;
+    line-height: 1.4;
+    letter-spacing: 0.7px;
+    padding: 7px 10px;
+  }
+
+  .hero h1 {
+    font-size: clamp(32px, 9vw, 40px);
+    line-height: 1.1;
+    letter-spacing: -1.2px;
+  }
+
+  .hero-content > p {
+    margin-top: 17px;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-info {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 28px;
+  }
+
+  .hero-divider {
+    display: none;
+  }
+
+  .hero-logo-area {
+    padding: 15px 0 55px;
+  }
+
+  .logo-circle {
+    width: min(78vw, 290px);
+    height: min(78vw, 290px);
+  }
+
+  .section {
+    padding: 65px 0;
+  }
+
+  .section-heading {
+    margin-bottom: 38px;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(27px, 7.5vw, 32px);
+    line-height: 1.2;
+  }
+
+  .section-heading p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .about-grid {
+    gap: 28px;
+  }
+
+  .about-image-box {
+    min-height: 280px;
+    padding: 20px;
+  }
+
+  .about-content h3 {
+    font-size: 25px;
+  }
+
+  .benefits {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .service-card {
+    min-height: 210px;
+    padding: 19px 11px;
+    border-radius: 16px;
+  }
+
+  .service-icon {
+    width: 54px;
+    height: 54px;
+    font-size: 25px;
+  }
+
+  .service-card h3 {
+    margin-top: 13px;
+    font-size: 13px;
+    line-height: 1.3;
+  }
+
+  .service-card p {
+    font-size: 10.5px;
+    line-height: 1.5;
+  }
+
+  .service-card a {
+    font-size: 11px;
+  }
+
+  .pest-image-grid {
+    gap: 14px;
+  }
+
+  .pest-image-card {
+    height: 230px;
+    border-radius: 16px;
+  }
+
+  .video-grid {
+    gap: 16px;
+  }
+
+  .video-card {
+    border-radius: 16px;
+  }
+
+  .video-info {
+    padding: 14px 15px;
+    gap: 10px;
+  }
+
+  .video-info h4 {
+    font-size: 13px;
+  }
+
+  .demonstration-heading {
+    margin: 65px auto 35px;
+  }
+
+  .demonstration-heading h3 {
+    font-size: 25px;
+  }
+
+  .cta {
+    padding: 55px 0;
+  }
+
+  .cta-container {
+    gap: 22px;
+  }
+
+  .cta h2 {
+    font-size: 27px;
+  }
+
+  .cta-button {
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+  }
+
+  .contact-grid {
+    gap: 13px;
+  }
+
+  .contact-card {
+    padding: 20px 16px;
+    gap: 14px;
+    border-radius: 16px;
+  }
+
+  .contact-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+
+  .contact-card h3 {
+    font-size: 16px;
+    overflow-wrap: anywhere;
+  }
+
+  .contact-card p {
+    font-size: 12px;
+  }
+
+  .footer-container {
+    padding: 38px 0;
+  }
+
+  .footer-links {
+    gap: 10px 16px;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+  }
+
+  .floating-actions {
+    right: 12px;
+    bottom: 12px;
+    gap: 8px;
+  }
+
+  .floating-actions a {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 33px;
+  }
+
+  .logo-circle {
+    width: 245px;
+    height: 245px;
+  }
+
+  .pest-image-card {
+    height: 210px;
+  }
+}
+
+
+/* =========================
+   MOBILE TOP SPACING FIX
+========================= */
+
+@media (max-width: 600px) {
+  html {
+    scroll-padding-top: 68px;
+  }
+
+  .section {
+    padding-top: 48px;
+    padding-bottom: 60px;
+  }
+
+  .section-heading {
+    margin-top: 0;
+  }
+
+  .about {
+    padding-top: 42px;
+  }
+
+  .pest-gallery {
+    padding-top: 48px;
+  }
+
+  .demonstration-heading {
+    margin-top: 52px;
+  }
+
+  .hero {
+    padding-top: 68px;
+  }
+}

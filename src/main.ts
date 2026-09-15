@@ -568,30 +568,7 @@ app.innerHTML = `
             </div>
 
           </div>
-
-
-          <div class="video-card">
-
-            <video
-              controls
-              preload="metadata"
-              playsinline
-            >
-              <source
-                src="${import.meta.env.BASE_URL}videos/demo-5.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support video playback.
-            </video>
-
-            <div class="video-info">
-              <span>05</span>
-              <h4>Pest Management in Action</h4>
-            </div>
-
-          </div>
-
-        </div>
+</div>
 
       </div>
 
@@ -666,6 +643,27 @@ app.innerHTML = `
               <h3>+91 93692 14131</h3>
             </div>
 
+          </a>
+
+
+          <a
+            href="https://wa.me/919369214131"
+            class="contact-card whatsapp-contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contact us on WhatsApp"
+          >
+            <div class="contact-icon whatsapp-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" role="img" aria-label="WhatsApp">
+                <path d="M16 3.2A12.8 12.8 0 0 0 5 22.6L3.4 28.5l6-1.6A12.8 12.8 0 1 0 16 3.2Z" fill="currentColor"/>
+                <path d="M11.3 9.8c.3-.3.7-.4 1-.2l1.8 1.1c.3.2.4.6.3.9l-.7 1.5c-.1.2-.1.4 0 .6.5.9 1.4 1.8 2.3 2.3.2.1.4.1.6 0l1.5-.7c.3-.1.7 0 .9.3l1.1 1.8c.2.3.1.7-.2 1- .5.5-1.2.8-1.9.7-1.7-.2-3.7-1.3-5.3-2.9-1.6-1.6-2.7-3.6-2.9-5.3-.1-.7.2-1.4.7-1.9Z" fill="white"/>
+              </svg>
+            </div>
+
+            <div>
+              <span>WhatsApp</span>
+              <h3>Chat With Us</h3>
+            </div>
           </a>
 
 
@@ -752,14 +750,29 @@ app.innerHTML = `
   </footer>
 
 
-  <!-- FLOATING CALL BUTTON -->
-  <a
-    href="tel:+919369214131"
-    class="floating-call"
-    aria-label="Call Pest Control"
-  >
-    📞
-  </a>
+  <!-- FLOATING CONTACT BUTTONS -->
+  <div class="floating-actions">
+    <a
+      href="https://wa.me/919369214131"
+      class="floating-whatsapp"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 3.2A12.8 12.8 0 0 0 5 22.6L3.4 28.5l6-1.6A12.8 12.8 0 1 0 16 3.2Z" fill="currentColor"/>
+        <path d="M11.3 9.8c.3-.3.7-.4 1-.2l1.8 1.1c.3.2.4.6.3.9l-.7 1.5c-.1.2-.1.4 0 .6.5.9 1.4 1.8 2.3 2.3.2.1.4.1.6 0l1.5-.7c.3-.1.7 0 .9.3l1.1 1.8c.2.3.1.7-.2 1- .5.5-1.2.8-1.9.7-1.7-.2-3.7-1.3-5.3-2.9-1.6-1.6-2.7-3.6-2.9-5.3-.1-.7.2-1.4.7-1.9Z" fill="white"/>
+      </svg>
+    </a>
+
+    <a
+      href="tel:+919369214131"
+      class="floating-call"
+      aria-label="Call Pest Control"
+    >
+      📞
+    </a>
+  </div>
 `;
 
 
