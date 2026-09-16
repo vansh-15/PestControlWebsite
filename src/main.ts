@@ -3,7 +3,7 @@ import "./style.css";
 const services = [
   {
     name: "Termite Control",
-    icon: "🐜",
+    icon: "🪵",
     description: "Protect your property from damaging termites."
   },
   {
@@ -111,19 +111,21 @@ app.innerHTML = `
         <div class="hero-content">
 
           <span class="hero-badge">
-            PROFESSIONAL PEST CONTROL SERVICES
+            RAJNISH CHAUHAN • PEST CONTROL WALA
           </span>
 
           <h1>
-            A Safer, Cleaner &
-            <span>Pest-Free</span>
-            Tomorrow
+            <span>Pest Control Wala</span>
+             Professional Pest Control Services in Kanpur
           </h1>
 
           <p>
-            Professional pest control solutions for homes,
-            offices and commercial spaces. Protect your property
-            from unwanted pests with reliable service.
+            Pest Control Wala provides professional pest control services in Kanpur for homes,
+            offices and commercial spaces. We provide termite control,
+            cockroach control, bed bug treatment, rat control,
+            mosquito control, fly control, ant control, lizard control,
+            honey bee control and yellow fly control to help protect
+            your property from common pest problems.
           </p>
 
           <div class="hero-buttons">
@@ -141,22 +143,22 @@ app.innerHTML = `
           <div class="hero-info">
 
             <div class="hero-info-item">
-              <strong>10+</strong>
-              <span>Pest Control Services</span>
+              <strong>16 Years</strong>
+              <span>Experience</span>
             </div>
 
             <div class="hero-divider"></div>
 
             <div class="hero-info-item">
-              <strong>Professional</strong>
-              <span>Service</span>
+              <strong>Since 2015</strong>
+              <span>Serving Customers</span>
             </div>
 
             <div class="hero-divider"></div>
 
             <div class="hero-info-item">
-              <strong>Kanpur</strong>
-              <span>Based Service</span>
+              <strong>Rajnish Chauhan</strong>
+              <span>Service Professional</span>
             </div>
 
           </div>
@@ -200,13 +202,14 @@ app.innerHTML = `
           </span>
 
           <h2>
-            Professional Pest Control You Can Trust
+            Pest Control Wala — Pest Control Services You Can Trust in Kanpur
           </h2>
 
           <p>
-            We provide reliable pest control services designed
-            to help keep your home, workplace and surroundings
-            clean, comfortable and protected from unwanted pests.
+            Led by <strong>Rajnish Chauhan</strong>, our pest control service
+            has been serving customers since 2015. With <strong>16 years of
+            experience</strong>, we provide professional pest management
+            solutions for homes, offices, shops and commercial spaces in Kanpur.
           </p>
 
         </div>
@@ -231,19 +234,20 @@ app.innerHTML = `
           <div class="about-content">
 
             <h3>
-              Your Protection Against Unwanted Pests
+              Complete Pest Control for Homes & Businesses
             </h3>
 
             <p>
-              From termites and cockroaches to mosquitoes,
-              rats, flies and other common pests, we offer
-              solutions for a wide range of pest problems.
+              From termite and cockroach infestations to bed bugs, ants,
+              rats, mosquitoes, flies, lizards, honey bees and yellow flies,
+              we offer practical pest control solutions for a wide range of
+              common pest problems.
             </p>
 
             <p>
-              Our goal is simple — to provide dependable
-              pest control services while helping you maintain
-              a cleaner and healthier environment.
+              Rajnish Chauhan focuses on dependable service and professional
+              pest management to help keep your property cleaner, safer and
+              protected from unwanted pests.
             </p>
 
 
@@ -252,8 +256,8 @@ app.innerHTML = `
               <div class="benefit">
                 <div class="benefit-icon">✓</div>
                 <div>
-                  <h4>Reliable Service</h4>
-                  <p>Professional pest management solutions.</p>
+                  <h4>16 Years Experience</h4>
+                  <p>Experienced pest control service led by Rajnish Chauhan.</p>
                 </div>
               </div>
 
@@ -304,12 +308,13 @@ app.innerHTML = `
           </span>
 
           <h2>
-            Complete Pest Control Solutions
+            Pest Control Wala — Pest Control Services in Kanpur
           </h2>
 
           <p>
-            Professional solutions for common household
-            and commercial pest problems.
+            Professional termite, cockroach, bed bug, ant, rat, mosquito,
+            fly, lizard, honey bee and yellow fly control services for
+            residential and commercial properties in Kanpur.
           </p>
 
         </div>
@@ -368,9 +373,11 @@ app.innerHTML = `
           </h2>
 
           <p>
-            Unwanted pests can hide in walls, cupboards, kitchens,
-            bedrooms and other areas of your property. Our professional
-            pest control services help tackle these common problems.
+            Whether you need termite treatment, cockroach control, bed bug
+            treatment, ant control, rat control, mosquito control, fly control,
+            lizard control, honey bee control or yellow fly control, our
+            pest control services are designed for homes, offices and
+            commercial spaces in Kanpur.
           </p>
 
         </div>
@@ -590,8 +597,8 @@ app.innerHTML = `
           </h2>
 
           <p>
-            Contact us today for professional pest control
-            assistance.
+            Contact Pest Control Wala and Rajnish Chauhan today for professional pest control
+            assistance in Kanpur.
           </p>
 
         </div>
@@ -621,7 +628,9 @@ app.innerHTML = `
           </h2>
 
           <p>
-            Get in touch with us for pest control services.
+            Contact Pest Control Wala and Rajnish Chauhan for reliable pest control services in
+            Kanpur, including termite, cockroach, bed bug, rat, mosquito,
+            fly and other common pest treatments.
           </p>
 
         </div>
@@ -710,7 +719,10 @@ app.innerHTML = `
         />
 
         <p>
-          A Safer • Cleaner • Pest Free Tomorrow
+          Pest Control Wala • A Safer • Cleaner • Pest Free Tomorrow
+        </p>
+        <p class="footer-experience">
+          Pest Control Wala • Rajnish Chauhan • 16 Years Experience • Since 2015
         </p>
 
       </div>

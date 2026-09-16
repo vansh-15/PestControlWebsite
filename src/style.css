@@ -2083,3 +2083,26 @@ img {
     padding-top: 68px;
   }
 }
+
+
+/* CLIENT / EXPERIENCE CONTENT */
+.footer-experience {
+  margin-top: 5px;
+  color: #7e988a;
+  font-size: 11px;
+}
+
+@media (max-width: 600px) {
+  .hero-badge {
+    white-space: normal;
+  }
+
+  .hero-info-item strong {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .footer-experience {
+    line-height: 1.5;
+  }
+}
